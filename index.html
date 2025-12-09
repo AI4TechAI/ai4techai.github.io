@@ -1,20 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>AI4Tech – Verificação de Certificados</title>
-    <script src="script.js"></script>
+    <meta charset="UTF-8" />
+    <title>AI4Tech – Certificate Verification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>AI4Tech – Verificação de Certificados</h1>
+    <div class="page">
+        <header class="header">
+            <div class="logo-area">
+                <img src="ai4tech-logo.png" alt="AI4Tech logo" class="logo-img" />
+            </div>
+        </header>
 
-    <p>Digite o código do certificado:</p>
+        <main class="main">
+            <section class="card">
+                <h1>Certificate Verification</h1>
+                <p class="intro">
+                    This page allows you to verify the authenticity of certificates issued by
+                    <strong>AI4Tech</strong>. Enter the <strong>Credential ID</strong> printed on
+                    the certificate, or use the direct verification link provided to the participant.
+                </p>
 
-    <input id="codigo" type="text" placeholder="Ex: AI4T-TESTE-0001">
-    <button onclick="verificarCertificado()">Verificar</button>
+                <form id="search-form" class="search-row">
+                    <input
+                        id="code"
+                        type="text"
+                        placeholder="Example: AI4T-2025-0001"
+                        autocomplete="off"
+                        aria-label="Certificate code"
+                    />
+                    <button type="submit">Verify</button>
+                </form>
 
-    <hr>
+                <p class="hint">
+                    This same code should be used as the
+                    <em>Credential ID</em> when adding the certification to LinkedIn.
+                </p>
 
-    <div id="resultado"></div>
+                <div id="result" class="result">
+                    <p class="placeholder">
+                        Enter a certificate code above or open this page with a URL like
+                        <code>?id=AI4T-2025-0001</code>.
+                    </p>
+                </div>
+            </section>
+
+            <section class="info">
+                <h2>How this verification works</h2>
+                <p>
+                    Each certificate issued by AI4Tech receives a unique
+                    <strong>Credential ID</strong>. When you submit a code, this page checks it
+                    against our official registry of certificates and returns the corresponding
+                    details, including status and course information.
+                </p>
+                <p>
+                    For transparency, the verification is read-only and publicly accessible. If a
+                    certificate is revoked or expires, its status will be updated here.
+                </p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>
+                © <span id="year"></span> AI4Tech. All rights reserved.
+            </p>
+        </footer>
+    </div>
 </body>
 </html>
