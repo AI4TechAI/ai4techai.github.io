@@ -1,0 +1,12 @@
+{
+  "AI4T-TESTE-0001": {
+    "nome": "Nicolás Spogis",
+    "curso": "Curso de Teste da Plataforma",
+    "carga_horaria": 2,
+    "data_emissao": "2025-01-01",
+    "status": "valido",
+    "instrutores": ["AI4Tech"],
+    "parceiros": ["AI4Tech"],
+    "observacoes": "Este é apenas um certificado de teste."
+  }
+}
