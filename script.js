@@ -1,14 +1,20 @@
 let certificateData = null;
 
 async function loadCertificates() {
+    // Se já carregou uma vez, reaproveita em memória
     if (certificateData) return certificateData;
 
-    const response = await fetch("certificados.json", {
-        cache: "no-cache"
+    // Cache-busting: adiciona um timestamp à URL para evitar JSON antigo em cache
+    const url = "certificados.json?v=" + new Date().getTime();
+
+    const response = await fetch(url, {
+        cache: "no-store"   // reforço extra para o navegador não reutilizar cache local
     });
+
     if (!response.ok) {
         throw new Error("Failed to load certificate registry.");
     }
+
     certificateData = await response.json();
     return certificateData;
 }
@@ -144,15 +150,17 @@ document.addEventListener("DOMContentLoaded", () => {
         yearSpan.textContent = new Date().getFullYear();
     }
 
-    form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        verifyCertificate(input.value);
-    });
+    if (form && input) {
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            verifyCertificate(input.value);
+        });
+    }
 
     // Support for URL parameter ?id=AI4T-2025-0001
     const params = new URLSearchParams(window.location.search);
     const idParam = params.get("id");
-    if (idParam) {
+    if (idParam && input) {
         input.value = idParam;
         verifyCertificate(idParam);
     }
