@@ -1,22 +1,63 @@
 {
   "AI4T-2025-0001": {
-    "name": "John Doe",
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
     "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
     "issue_date": "2025-11-30",
-    "status": "valid",
-    "instructors": ["Nicolás Spogis", "Daniel Medeiros"],
-    "partners": ["AI4Tech", "ABEQ"],
-    "notes": "Successfully completed all classes and final challenge."
+    "name": "João da Silva",
+    "notes": "Completed all classes and the final project",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
   },
-  "AI4T-TEST-0001": {
-    "name": "Nicolás Spogis",
-    "course": "Internal Test of AI4Tech Certificate Platform",
-    "hours": 2,
-    "issue_date": "2025-01-01",
-    "status": "valid",
-    "instructors": ["AI4Tech"],
-    "partners": ["AI4Tech"],
-    "notes": "This entry is for internal testing of the verification system."
+  "AI4T-2025-0002": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis",
+      "Daniel Medeiros"
+    ],
+    "issue_date": "2025-11-30",
+    "name": "Maria Santos",
+    "notes": "Completed with distinction",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "AI4T-2025-0003": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis",
+      "Daniel Medeiros"
+    ],
+    "issue_date": "2025-11-30",
+    "name": "Pedro Oliveira",
+    "notes": "",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "AI4T-2025-0004": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-11-30",
+    "name": "Ricardo Schwab",
+    "notes": "",
+    "partners": [
+      "AI4Tech"
+    ],
+    "status": "valid"
   }
 }
