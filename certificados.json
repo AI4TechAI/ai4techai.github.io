@@ -1,12 +1,22 @@
 {
-  "AI4T-TESTE-0001": {
-    "nome": "Nicolás Spogis",
-    "curso": "Curso de Teste da Plataforma",
-    "carga_horaria": 2,
-    "data_emissao": "2025-01-01",
-    "status": "valido",
-    "instrutores": ["AI4Tech"],
-    "parceiros": ["AI4Tech"],
-    "observacoes": "Este é apenas um certificado de teste."
+  "AI4T-2025-0001": {
+    "name": "John Doe",
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "hours": 24,
+    "issue_date": "2025-11-30",
+    "status": "valid",
+    "instructors": ["Nicolás Spogis", "Daniel Medeiros"],
+    "partners": ["AI4Tech", "ABEQ"],
+    "notes": "Successfully completed all classes and final challenge."
+  },
+  "AI4T-TEST-0001": {
+    "name": "Nicolás Spogis",
+    "course": "Internal Test of AI4Tech Certificate Platform",
+    "hours": 2,
+    "issue_date": "2025-01-01",
+    "status": "valid",
+    "instructors": ["AI4Tech"],
+    "partners": ["AI4Tech"],
+    "notes": "This entry is for internal testing of the verification system."
   }
 }
