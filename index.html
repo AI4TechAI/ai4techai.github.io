@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>AI4Tech – Verificação de Certificados</title>
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>AI4Tech – Verificação de Certificados</h1>
-    <p>O GitHub Pages está funcionando corretamente 🎉</p>
+
+    <p>Digite o código do certificado:</p>
+
+    <input id="codigo" type="text" placeholder="Ex: AI4T-TESTE-0001">
+    <button onclick="verificarCertificado()">Verificar</button>
+
+    <hr>
+
+    <div id="resultado"></div>
 </body>
 </html>
