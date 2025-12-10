@@ -1,108 +1,107 @@
-/* ------------------------------
-   Global Styles
------------------------------- */
-
+/* ---------------------------------------------------------
+   GLOBAL
+--------------------------------------------------------- */
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #0a1420, #111d2e);
     font-family: "Inter", sans-serif;
-    background: linear-gradient(145deg, #0b1623, #111927);
-    color: #e6e6e6;
+    color: #dfe7f1;
 }
 
 .page {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 40px 20px;
 }
 
-/* ------------------------------
-   Header
------------------------------- */
-
+/* ---------------------------------------------------------
+   LOGO HEADER
+--------------------------------------------------------- */
 .header {
     display: flex;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 30px;
 }
 
 .logo-area img {
-    height: 100px;
+    height: 60px;
 }
 
-/* ------------------------------
-   Main Card
------------------------------- */
-
+/* ---------------------------------------------------------
+   MAIN CARD
+--------------------------------------------------------- */
 .card {
     background: rgba(255, 255, 255, 0.03);
+    padding: 30px;
+    border-radius: 18px;
     border: 1px solid rgba(255, 255, 255, 0.08);
-    padding: 2rem;
-    border-radius: 20px;
-    backdrop-filter: blur(6px);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 28px rgba(0, 0, 0, 0.35);
 }
 
 .card h1 {
+    margin: 0;
     font-size: 1.8rem;
-    margin-bottom: 0.8rem;
+    font-weight: 700;
 }
 
 .intro {
+    margin-top: 8px;
     opacity: 0.85;
     line-height: 1.5;
 }
 
+/* ---------------------------------------------------------
+   SEARCH BAR
+--------------------------------------------------------- */
 .search-row {
-    margin-top: 1.2rem;
+    margin-top: 20px;
     display: flex;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .search-row input {
     flex: 1;
-    padding: 0.9rem 1.2rem;
     font-size: 1rem;
-    border-radius: 30px;
-    border: 1px solid #2c3948;
-    background: #0d1a28;
-    color: white;
+    padding: 12px 18px;
+    border-radius: 40px;
+    border: 1px solid #253242;
+    background: #0e1a27;
+    color: #eaf2fb;
 }
 
 .search-row button {
-    padding: 0.9rem 1.8rem;
-    border-radius: 30px;
+    background: linear-gradient(90deg, #ff7b24, #ff9a3c);
     border: none;
-    background: linear-gradient(45deg, #ff6600, #ff8533);
+    padding: 12px 26px;
+    font-size: 1rem;
     color: white;
     font-weight: 600;
+    border-radius: 40px;
     cursor: pointer;
+    box-shadow: 0 3px 12px rgba(255, 150, 60, 0.45);
     transition: 0.25s;
-    box-shadow: 0 0 12px rgba(255, 120, 40, 0.6);
 }
 
 .search-row button:hover {
     transform: translateY(-2px);
 }
 
-/* ------------------------------
-   Result Area
------------------------------- */
-
+/* ---------------------------------------------------------
+   RESULT AREA
+--------------------------------------------------------- */
 .result {
-    margin-top: 1.8rem;
+    margin-top: 30px;
 }
 
 .result-card {
     background: rgba(255, 255, 255, 0.03);
-    border: 1px dashed rgba(255, 255, 255, 0.12);
-    padding: 1.8rem;
-    border-radius: 16px;
-    backdrop-filter: blur(4px);
-
+    border: 1px dashed rgba(255, 255, 255, 0.15);
+    padding: 24px;
+    border-radius: 14px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.2rem;
+    gap: 22px;
 }
 
 .result-header {
@@ -113,96 +112,91 @@ body {
 }
 
 .result-title {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
+/* STATUS TAGS */
 .status-pill {
-    padding: 0.35rem 0.9rem;
+    padding: 6px 14px;
     border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: white;
 }
 
 .status-valid {
-    background: #0c8f4a;
-    color: white;
+    background: #0a9f55;
 }
 
 .status-expired {
-    background: #b32d00;
-    color: white;
+    background: #c7370a;
 }
 
 .status-revoked {
     background: #820000;
-    color: white;
 }
 
+/* LABELS & VALUES */
 .field-label {
-    font-size: 0.75rem;
-    opacity: 0.7;
+    font-size: 0.7rem;
+    opacity: 0.6;
     text-transform: uppercase;
+    letter-spacing: 0.8px;
 }
 
 .field-value {
     font-size: 0.95rem;
     font-weight: 600;
+    margin-top: 4px;
 }
 
 .code-box {
-    background: rgba(255, 255, 255, 0.08);
-    padding: 0.25rem 0.5rem;
+    background: rgba(255, 255, 255, 0.07);
+    padding: 4px 8px;
     border-radius: 8px;
 }
 
-/* ------------------------------
-   LinkedIn Button (FINAL)
------------------------------- */
-
+/* ---------------------------------------------------------
+   LINKEDIN BUTTON — ONLY NEW PART (FULLY COMPATIBLE!)
+--------------------------------------------------------- */
 .linkedin-block {
     grid-column: 1 / -1;
-    text-align: center;       /* CENTRALIZA O BOTÃO */
-    margin-top: 1.8rem;
+    text-align: center;
+    margin-top: 18px;
 }
 
 .linkedin-btn {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-
-    background-color: #0A66C2; /* Azul LinkedIn */
+    gap: 8px;
+    background: #0A66C2;
     color: white;
-    padding: 0.9rem 1.8rem;
-
-    border-radius: 8px;
+    padding: 12px 26px;
+    border-radius: 10px;
     text-decoration: none;
     font-weight: 600;
-    font-size: 0.95rem;
-
-    transition: background 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 0 12px rgba(10, 102, 194, 0.45);
+    transition: 0.2s ease;
 }
 
 .linkedin-btn:hover {
-    background-color: #004182;
+    background: #004182;
     transform: translateY(-2px);
 }
 
-/* Ícone do botão */
 .linkedin-btn svg {
     width: 20px;
     height: 20px;
     fill: white;
 }
 
-/* ------------------------------
-   Footer
------------------------------- */
-
+/* ---------------------------------------------------------
+   FOOTER
+--------------------------------------------------------- */
 .footer {
-    margin-top: 3rem;
     text-align: center;
-    opacity: 0.6;
-    font-size: 0.85rem;
+    margin-top: 40px;
+    opacity: 0.55;
+    font-size: 0.9rem;
 }
