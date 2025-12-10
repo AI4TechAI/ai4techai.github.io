@@ -1,42 +1,14 @@
 {
-  "2E7-SNF-20AI4T25": {
+  "BNG-6XA-20AI4T25": {
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=BNG-6XA-20AI4T25",
     "hours": 24,
     "instructors": [
       "Nicolas Spogis",
       "Daniel Medeiros"
     ],
     "issue_date": "2025-12-25",
-    "name": "Pedro Oliveira",
-    "notes": "",
-    "partners": [
-      "AI4Tech",
-      "ABEQ"
-    ],
-    "status": "valid"
-  },
-  "38E-J8P-20AI4T25": {
-    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
-    "hours": 24,
-    "instructors": [
-      "Nicolas Spogis"
-    ],
-    "issue_date": "2025-12-25",
-    "name": "Ricardo Schwab",
-    "notes": "",
-    "partners": [
-      "AI4Tech"
-    ],
-    "status": "valid"
-  },
-  "C75-NCS-20AI4T25": {
-    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
-    "hours": 24,
-    "instructors": [
-      "Nicolas Spogis",
-      "Daniel Medeiros"
-    ],
-    "issue_date": "2025-12-25",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=DWSIM%20Unit%20Operations%20%E2%80%93%20ABEQ%2C%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=BNG-6XA-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DBNG-6XA-20AI4T25",
     "name": "Maria Santos",
     "notes": "Completed with distinction",
     "partners": [
@@ -45,14 +17,32 @@
     ],
     "status": "valid"
   },
-  "GGY-XYP-20AI4T25": {
+  "GMP-X5Z-20AI4T25": {
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=GMP-X5Z-20AI4T25",
     "hours": 24,
     "instructors": [
       "Nicolas Spogis"
     ],
     "issue_date": "2025-12-25",
-    "name": "João da Silva",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=DWSIM%20Unit%20Operations%20%E2%80%93%20ABEQ%2C%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=GMP-X5Z-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DGMP-X5Z-20AI4T25",
+    "name": "Ricardo Schwab",
+    "notes": "",
+    "partners": [
+      "AI4Tech"
+    ],
+    "status": "valid"
+  },
+  "QLY-W6X-20AI4T25": {
+    "course": "DWSIM Intro - ABEQ - Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=QLY-W6X-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-25",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=DWSIM%20Intro%20-%20ABEQ%20-%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=QLY-W6X-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DQLY-W6X-20AI4T25",
+    "name": "Nicolas Spogis",
     "notes": "Completed all classes and the final project",
     "partners": [
       "AI4Tech",
@@ -60,14 +50,34 @@
     ],
     "status": "valid"
   },
-  "WNR-7Z2-20AI4T25": {
-    "course": "DWSIM Intro - ABEQ - Edition 2",
+  "QPU-TWH-20AI4T25": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=QPU-TWH-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis",
+      "Daniel Medeiros"
+    ],
+    "issue_date": "2025-12-25",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=DWSIM%20Unit%20Operations%20%E2%80%93%20ABEQ%2C%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=QPU-TWH-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DQPU-TWH-20AI4T25",
+    "name": "Pedro Oliveira",
+    "notes": "",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "ZSV-3GU-20AI4T25": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=ZSV-3GU-20AI4T25",
     "hours": 24,
     "instructors": [
       "Nicolas Spogis"
     ],
     "issue_date": "2025-12-25",
-    "name": "Nicolas Spogis",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=DWSIM%20Unit%20Operations%20%E2%80%93%20ABEQ%2C%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=ZSV-3GU-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DZSV-3GU-20AI4T25",
+    "name": "João da Silva",
     "notes": "Completed all classes and the final project",
     "partners": [
       "AI4Tech",
