@@ -283,3 +283,105 @@ code {
         text-align: center;
     }
 }
+
+/* ============================
+   LinkedIn CTA block & button
+   ============================ */
+
+.linkedin-block {
+    margin-top: 1.75rem;
+    padding: 1rem 1.25rem;
+    border-radius: 0.9rem;
+    background: #f3f6fb;
+    border: 1px solid #d6e0f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.linkedin-text {
+    max-width: 420px;
+}
+
+.linkedin-text h3 {
+    margin: 0 0 0.25rem 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #0a2540;
+}
+
+.linkedin-text p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #4a5568;
+}
+
+.linkedin-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.55rem 1.1rem;
+    border-radius: 999px;
+    border: none;
+    outline: none;
+    background: #0a66c2;
+    color: #ffffff;
+    font-size: 0.88rem;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(10, 102, 194, 0.25);
+    transition:
+        background 0.16s ease,
+        transform 0.12s ease,
+        box-shadow 0.16s ease,
+        opacity 0.16s ease;
+}
+
+.linkedin-btn:hover {
+    background: #004182;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 65, 130, 0.3);
+}
+
+.linkedin-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 65, 130, 0.25);
+}
+
+.linkedin-btn:focus-visible {
+    outline: 2px solid #0a66c2;
+    outline-offset: 3px;
+}
+
+.linkedin-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin-icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Responsivo */
+@media (max-width: 640px) {
+    .linkedin-block {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .linkedin-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
