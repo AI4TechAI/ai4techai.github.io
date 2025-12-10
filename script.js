@@ -1,9 +1,12 @@
 let certificateData = null;
 
+/* ================================
+   Load certificate registry (JSON)
+   ================================ */
 async function loadCertificates() {
     if (certificateData) return certificateData;
 
-    const response = await fetch("certificados.json?v=" + Date.now(), {
+    const response = await fetch("certificados.json", {
         cache: "no-cache"
     });
 
@@ -15,13 +18,18 @@ async function loadCertificates() {
     return certificateData;
 }
 
+/* ================================
+   UI Helper Blocks
+   ================================ */
+
 function renderNotFound(code) {
     const container = document.getElementById("result");
     container.innerHTML = `
         <p class="error"><strong>Certificate not found.</strong></p>
         <p class="hint">
-            Please check the <strong>Credential ID</strong>:
-            <code>${code || "—"}</code>.
+            Please check if the <strong>Credential ID</strong> was typed correctly:
+            <code>${code || "—"}</code>.<br>
+            If you believe this is an error, contact AI4Tech support.
         </p>
     `;
 }
@@ -34,9 +42,14 @@ function renderError(message) {
     `;
 }
 
+/* ================================
+   Render Certificate Details
+   ================================ */
+
 function renderCertificate(code, cert) {
     const container = document.getElementById("result");
 
+    // Status formatting
     const normalizedStatus = (cert.status || "").toLowerCase();
     let statusClass = "status-valid";
     let statusLabel = "Valid";
@@ -49,13 +62,47 @@ function renderCertificate(code, cert) {
         statusLabel = "Revoked";
     }
 
-    // botão linkedin, se existir no JSON
-    const linkedinButton = cert.linkedin_url
-        ? `<a href="${cert.linkedin_url}" target="_blank" class="linkedin-btn">Add to LinkedIn</a>`
+    // Optional LinkedIn block
+    const linkedinBlock = cert.linkedin_url
+        ? `
+        <div class="linkedin-block">
+            <div class="linkedin-text">
+                <h3>Certification ready for LinkedIn</h3>
+                <p>
+                    Add this certification directly to your LinkedIn profile.
+                    The Credential ID and verification link will be automatically filled.
+                </p>
+            </div>
+
+            <a href="${cert.linkedin_url}" target="_blank"
+               class="linkedin-btn" rel="noreferrer">
+                <span class="linkedin-icon">
+                    <svg viewBox="0 0 24 24" role="img" focusable="false">
+                        <title>LinkedIn</title>
+                        <path fill="currentColor"
+                            d="M22.225 0H1.771C.792 0 0 .774 0
+                            1.729v20.542C0 23.227.792 24 1.771
+                            24h20.451C23.2 24 24 23.227 24
+                            22.271V1.729C24 .774 23.2 0 22.225
+                            0zM7.059 20.452H3.577V9.039h3.482v11.413zM5.318
+                            7.433a2.016 2.016 0 110-4.032 2.016
+                            2.016 0 010 4.032zm15.135 13.019h-3.476v-5.559c0-1.327-.027-3.033-1.848-3.033-1.849
+                            0-2.132 1.445-2.132 2.939v5.653H9.52V9.039h3.337v1.561h.047c.464-.879
+                            1.598-1.804 3.289-1.804 3.518 0 4.26
+                            2.317 4.26 5.331v6.325z">
+                        </path>
+                    </svg>
+                </span>
+                <span>Add to LinkedIn</span>
+            </a>
+        </div>
+    `
         : "";
 
+    // Main certificate card
     container.innerHTML = `
         <div class="result-card">
+
             <div class="result-header">
                 <div class="result-title">Certificate details</div>
                 <span class="status-pill ${statusClass}">${statusLabel}</span>
@@ -101,10 +148,15 @@ function renderCertificate(code, cert) {
                 <span class="field-value">${cert.notes || "No additional notes."}</span>
             </div>
 
-            ${linkedinButton}
+            ${linkedinBlock}
+
         </div>
     `;
 }
+
+/* ================================
+   Main Verification Handler
+   ================================ */
 
 async function verifyCertificate(code) {
     const trimmed = code.trim();
@@ -113,13 +165,14 @@ async function verifyCertificate(code) {
     if (!trimmed) {
         container.innerHTML = `
             <p class="placeholder">
-                Please enter a <strong>Credential ID</strong>.
-            </p>
-        `;
+                Please enter a <strong>Credential ID</strong> to verify a certificate.
+            </p>`;
         return;
     }
 
-    container.innerHTML = `<p class="loading">Verifying certificate <code>${trimmed}</code>…</p>`;
+    container.innerHTML = `<p class="loading">
+        Verifying certificate <code>${trimmed}</code>…
+    </p>`;
 
     try {
         const data = await loadCertificates();
@@ -131,11 +184,16 @@ async function verifyCertificate(code) {
         }
 
         renderCertificate(trimmed, cert);
+
     } catch (err) {
         console.error(err);
-        renderError("Unable to access registry.");
+        renderError("Unable to access the certificate registry at the moment.");
     }
 }
+
+/* ================================
+   Page Initialization
+   ================================ */
 
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("search-form");
@@ -151,9 +209,9 @@ document.addEventListener("DOMContentLoaded", () => {
         verifyCertificate(input.value);
     });
 
-    // Suporte ao parâmetro ?id=XYZ
+    // Support direct links: verify.ai4tech.ai/?id=XXXXX
     const params = new URLSearchParams(window.location.search);
-    const idParam = decodeURIComponent(params.get("id") || "").trim();
+    const idParam = params.get("id");
 
     if (idParam) {
         input.value = idParam;
