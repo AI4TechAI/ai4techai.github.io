@@ -62,23 +62,15 @@ function renderCertificate(code, cert) {
         statusLabel = "Revoked";
     }
 
-    // Optional LinkedIn block
+    // LinkedIn block (fully centered, updated text)
     const linkedinBlock = cert.linkedin_url
         ? `
         <div class="linkedin-block">
-            <div class="linkedin-text">
-                <h3>Certification ready for LinkedIn</h3>
-                <p>
-                    Add this certification directly to your LinkedIn profile.
-                    The Credential ID and verification link will be automatically filled.
-                </p>
-            </div>
-
             <a href="${cert.linkedin_url}" target="_blank"
                class="linkedin-btn" rel="noreferrer">
+
                 <span class="linkedin-icon">
-                    <svg viewBox="0 0 24 24" role="img" focusable="false">
-                        <title>LinkedIn</title>
+                    <svg viewBox="0 0 24 24">
                         <path fill="currentColor"
                             d="M22.225 0H1.771C.792 0 0 .774 0
                             1.729v20.542C0 23.227.792 24 1.771
@@ -93,10 +85,11 @@ function renderCertificate(code, cert) {
                         </path>
                     </svg>
                 </span>
-                <span>Add to LinkedIn</span>
+
+                <span>Add your Certificate to LinkedIn</span>
             </a>
         </div>
-    `
+        `
         : "";
 
     // Main certificate card
@@ -170,9 +163,10 @@ async function verifyCertificate(code) {
         return;
     }
 
-    container.innerHTML = `<p class="loading">
-        Verifying certificate <code>${trimmed}</code>…
-    </p>`;
+    container.innerHTML = `
+        <p class="loading">
+            Verifying certificate <code>${trimmed}</code>…
+        </p>`;
 
     try {
         const data = await loadCertificates();
