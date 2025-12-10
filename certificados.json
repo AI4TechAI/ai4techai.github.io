@@ -1,5 +1,20 @@
 {
-  "AI4Tech-2025-DRAF-REPU": {
+  "45E-BUL|20AI4T25": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-25",
+    "name": "João da Silva",
+    "notes": "Completed all classes and the final project",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "4AW-89B|20AI4T25": {
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
     "hours": 24,
     "instructors": [
@@ -15,14 +30,14 @@
     ],
     "status": "valid"
   },
-  "AI4Tech-2025-F3VQ-225H": {
-    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+  "67W-QUN|20AI4T25": {
+    "course": "DWSIM Intro - ABEQ - Edition 2",
     "hours": 24,
     "instructors": [
       "Nicolas Spogis"
     ],
     "issue_date": "2025-12-25",
-    "name": "João da Silva",
+    "name": "Nicolas Spogis",
     "notes": "Completed all classes and the final project",
     "partners": [
       "AI4Tech",
@@ -30,23 +45,7 @@
     ],
     "status": "valid"
   },
-  "AI4Tech-2025-LLZF-5DN6": {
-    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
-    "hours": 24,
-    "instructors": [
-      "Nicolas Spogis",
-      "Daniel Medeiros"
-    ],
-    "issue_date": "2025-12-25",
-    "name": "Pedro Oliveira",
-    "notes": "",
-    "partners": [
-      "AI4Tech",
-      "ABEQ"
-    ],
-    "status": "valid"
-  },
-  "AI4Tech-2025-TWZJ-B9WV": {
+  "8DC-VTY|20AI4T25": {
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
     "hours": 24,
     "instructors": [
@@ -60,15 +59,16 @@
     ],
     "status": "valid"
   },
-  "AI4Tech-2025-Z7WR-3UK3": {
-    "course": "DWSIM Intro - ABEQ - Edition 2",
+  "PH3-G93|20AI4T25": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
     "hours": 24,
     "instructors": [
-      "Nicolas Spogis"
+      "Nicolas Spogis",
+      "Daniel Medeiros"
     ],
     "issue_date": "2025-12-25",
-    "name": "Nicolas Spogis",
-    "notes": "Completed all classes and the final project",
+    "name": "Pedro Oliveira",
+    "notes": "",
     "partners": [
       "AI4Tech",
       "ABEQ"
