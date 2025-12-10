@@ -1,14 +1,10 @@
 let certificateData = null;
 
 async function loadCertificates() {
-    // Se já carregou uma vez, reaproveita em memória
     if (certificateData) return certificateData;
 
-    // Cache-busting: adiciona um timestamp à URL para evitar JSON antigo em cache
-    const url = "certificados.json?v=" + new Date().getTime();
-
-    const response = await fetch(url, {
-        cache: "no-store"   // reforço extra para o navegador não reutilizar cache local
+    const response = await fetch("certificados.json?v=" + Date.now(), {
+        cache: "no-cache"
     });
 
     if (!response.ok) {
@@ -24,9 +20,8 @@ function renderNotFound(code) {
     container.innerHTML = `
         <p class="error"><strong>Certificate not found.</strong></p>
         <p class="hint">
-            Please check if the <strong>Credential ID</strong> was typed correctly:
+            Please check the <strong>Credential ID</strong>:
             <code>${code || "—"}</code>.
-            If you believe this is an error, contact AI4Tech support.
         </p>
     `;
 }
@@ -53,6 +48,11 @@ function renderCertificate(code, cert) {
         statusClass = "status-revoked";
         statusLabel = "Revoked";
     }
+
+    // botão linkedin, se existir no JSON
+    const linkedinButton = cert.linkedin_url
+        ? `<a href="${cert.linkedin_url}" target="_blank" class="linkedin-btn">Add to LinkedIn</a>`
+        : "";
 
     container.innerHTML = `
         <div class="result-card">
@@ -88,24 +88,20 @@ function renderCertificate(code, cert) {
 
             <div>
                 <span class="field-label">Instructors</span>
-                <span class="field-value">
-                    ${(cert.instructors || []).join(", ")}
-                </span>
+                <span class="field-value">${(cert.instructors || []).join(", ")}</span>
             </div>
 
             <div>
                 <span class="field-label">Partners</span>
-                <span class="field-value">
-                    ${(cert.partners || []).join(", ") || "—"}
-                </span>
+                <span class="field-value">${(cert.partners || []).join(", ") || "—"}</span>
             </div>
 
             <div style="grid-column: 1 / -1;">
                 <span class="field-label">Notes</span>
-                <span class="field-value">
-                    ${cert.notes || "No additional notes for this certificate."}
-                </span>
+                <span class="field-value">${cert.notes || "No additional notes."}</span>
             </div>
+
+            ${linkedinButton}
         </div>
     `;
 }
@@ -117,7 +113,7 @@ async function verifyCertificate(code) {
     if (!trimmed) {
         container.innerHTML = `
             <p class="placeholder">
-                Please enter a <strong>Credential ID</strong> to verify a certificate.
+                Please enter a <strong>Credential ID</strong>.
             </p>
         `;
         return;
@@ -137,7 +133,7 @@ async function verifyCertificate(code) {
         renderCertificate(trimmed, cert);
     } catch (err) {
         console.error(err);
-        renderError("Unable to access the certificate registry at this moment.");
+        renderError("Unable to access registry.");
     }
 }
 
@@ -150,17 +146,16 @@ document.addEventListener("DOMContentLoaded", () => {
         yearSpan.textContent = new Date().getFullYear();
     }
 
-    if (form && input) {
-        form.addEventListener("submit", (e) => {
-            e.preventDefault();
-            verifyCertificate(input.value);
-        });
-    }
+    form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        verifyCertificate(input.value);
+    });
 
-    // Support for URL parameter ?id=AI4T-2025-0001
+    // Suporte ao parâmetro ?id=XYZ
     const params = new URLSearchParams(window.location.search);
-    const idParam = params.get("id");
-    if (idParam && input) {
+    const idParam = decodeURIComponent(params.get("id") || "").trim();
+
+    if (idParam) {
         input.value = idParam;
         verifyCertificate(idParam);
     }
