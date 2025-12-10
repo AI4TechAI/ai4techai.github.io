@@ -1,5 +1,21 @@
 {
-  "ARU-JMN/20AI4T25": {
+  "2E7-SNF-20AI4T25": {
+    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis",
+      "Daniel Medeiros"
+    ],
+    "issue_date": "2025-12-25",
+    "name": "Pedro Oliveira",
+    "notes": "",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "38E-J8P-20AI4T25": {
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
     "hours": 24,
     "instructors": [
@@ -13,37 +29,7 @@
     ],
     "status": "valid"
   },
-  "DCS-EGZ/20AI4T25": {
-    "course": "DWSIM Intro - ABEQ - Edition 2",
-    "hours": 24,
-    "instructors": [
-      "Nicolas Spogis"
-    ],
-    "issue_date": "2025-12-25",
-    "name": "Nicolas Spogis",
-    "notes": "Completed all classes and the final project",
-    "partners": [
-      "AI4Tech",
-      "ABEQ"
-    ],
-    "status": "valid"
-  },
-  "FT2-RQG/20AI4T25": {
-    "course": "DWSIM Unit Operations – ABEQ, Edition 2",
-    "hours": 24,
-    "instructors": [
-      "Nicolas Spogis"
-    ],
-    "issue_date": "2025-12-25",
-    "name": "João da Silva",
-    "notes": "Completed all classes and the final project",
-    "partners": [
-      "AI4Tech",
-      "ABEQ"
-    ],
-    "status": "valid"
-  },
-  "MUD-MJM/20AI4T25": {
+  "C75-NCS-20AI4T25": {
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
     "hours": 24,
     "instructors": [
@@ -59,16 +45,30 @@
     ],
     "status": "valid"
   },
-  "T3H-3ZP/20AI4T25": {
+  "GGY-XYP-20AI4T25": {
     "course": "DWSIM Unit Operations – ABEQ, Edition 2",
     "hours": 24,
     "instructors": [
-      "Nicolas Spogis",
-      "Daniel Medeiros"
+      "Nicolas Spogis"
     ],
     "issue_date": "2025-12-25",
-    "name": "Pedro Oliveira",
-    "notes": "",
+    "name": "João da Silva",
+    "notes": "Completed all classes and the final project",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "WNR-7Z2-20AI4T25": {
+    "course": "DWSIM Intro - ABEQ - Edition 2",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-25",
+    "name": "Nicolas Spogis",
+    "notes": "Completed all classes and the final project",
     "partners": [
       "AI4Tech",
       "ABEQ"
