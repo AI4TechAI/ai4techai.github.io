@@ -131,6 +131,23 @@
     ],
     "status": "valid"
   },
+  "AXE-P59-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=AXE-P59-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-10",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=AXE-P59-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DAXE-P59-20AI4T25",
+    "name": "João Rui Barbosa de Alencar",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
   "BSA-G9R-20AI4T25": {
     "course": "Advanced Process Simulation with DWSIM & ChemSep: Distillation and Energy Optimization",
     "credential_url": "https://verify.ai4tech.ai/?id=BSA-G9R-20AI4T25",
@@ -174,6 +191,23 @@
     "issue_date": "2025-12-10",
     "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=FDW-8KH-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DFDW-8KH-20AI4T25",
     "name": "Claudio Roberto Raimundo",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "GMN-BTU-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=GMN-BTU-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-10",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=GMN-BTU-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DGMN-BTU-20AI4T25",
+    "name": "Ruan da Silva Nobre",
     "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
     "partners": [
       "AI4Tech",
