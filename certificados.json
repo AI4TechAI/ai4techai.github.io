@@ -299,6 +299,23 @@
     ],
     "status": "valid"
   },
+  "D4D-NL4-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=D4D-NL4-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-15",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=D4D-NL4-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DD4D-NL4-20AI4T25",
+    "name": "Andy Avimael Saavedra Mendoza",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
   "D5U-RBJ-20AI4T25": {
     "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
     "credential_url": "https://verify.ai4tech.ai/?id=D5U-RBJ-20AI4T25",
@@ -499,6 +516,23 @@
     "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
     "partners": [
       "INPASA"
+    ],
+    "status": "valid"
+  },
+  "Q2U-Y7J-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=Q2U-Y7J-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-15",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=Q2U-Y7J-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DQ2U-Y7J-20AI4T25",
+    "name": "Léo d'Ávila Bisi Guimarães",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
     ],
     "status": "valid"
   },
