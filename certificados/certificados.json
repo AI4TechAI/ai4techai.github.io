@@ -621,6 +621,23 @@
     ],
     "status": "valid"
   },
+  "QNL-GXE-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=QNL-GXE-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-15",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=QNL-GXE-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DQNL-GXE-20AI4T25",
+    "name": "Pedro Lucas Silva de Andrade",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
   "R7U-EWH-20AI4T25": {
     "course": "Advanced Process Simulation with DWSIM & ChemSep: Distillation and Energy Optimization",
     "credential_url": "https://verify.ai4tech.ai/?id=R7U-EWH-20AI4T25",
