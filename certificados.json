@@ -82,6 +82,40 @@
     ],
     "status": "valid"
   },
+  "4V4-42A-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=4V4-42A-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-15",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=4V4-42A-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3D4V4-42A-20AI4T25",
+    "name": "Miguel Ángel Martínez Guirado",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "56Y-66N-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=56Y-66N-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-15",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=56Y-66N-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3D56Y-66N-20AI4T25",
+    "name": "Paulo Sérgio da Silva Porto",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
+    ],
+    "status": "valid"
+  },
   "5JA-5GP-20AI4T25": {
     "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
     "credential_url": "https://verify.ai4tech.ai/?id=5JA-5GP-20AI4T25",
@@ -666,6 +700,23 @@
     "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
     "partners": [
       "AI4Tech"
+    ],
+    "status": "valid"
+  },
+  "VE3-836-20AI4T25": {
+    "course": "Foundations of Process Simulation with DWSIM – ABEQ Edition 2",
+    "credential_url": "https://verify.ai4tech.ai/?id=VE3-836-20AI4T25",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2025-12-15",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Foundations%20of%20Process%20Simulation%20with%20DWSIM%20%E2%80%93%20ABEQ%20Edition%202&organizationId=81309265&issueYear=2025&issueMonth=12&certId=VE3-836-20AI4T25&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DVE3-836-20AI4T25",
+    "name": "Maria Clara Monteiro Rocha",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech",
+      "ABEQ"
     ],
     "status": "valid"
   },
