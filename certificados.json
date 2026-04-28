@@ -1583,6 +1583,22 @@
     ],
     "status": "valid"
   },
+  "T9Y-7Q3-20AI4T26": {
+    "course": "Applied Process Optimization with DWSIM & AI4Tech Suite: Single-Objective Strategies & Industrial Practice",
+    "credential_url": "https://verify.ai4tech.ai/?id=T9Y-7Q3-20AI4T26",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2026-04-28",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Applied%20Process%20Optimization%20with%20DWSIM%20%26%20AI4Tech%20Suite%3A%20Single-Objective%20Strategies%20%26%20Industrial%20Practice&organizationId=81309265&issueYear=2026&issueMonth=4&certId=T9Y-7Q3-20AI4T26&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DT9Y-7Q3-20AI4T26",
+    "name": "Gabriel Hernandez Rozo",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech"
+    ],
+    "status": "valid"
+  },
   "TBS-M2A-20AI4T24": {
     "course": "Fundamentals of Process Modeling & Simulation with DWSIM",
     "credential_url": "https://verify.ai4tech.ai/?id=TBS-M2A-20AI4T24",
@@ -1936,6 +1952,22 @@
     "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
     "partners": [
       "ABEQ"
+    ],
+    "status": "valid"
+  },
+  "ZSK-M4R-20AI4T26": {
+    "course": "Applied Process Optimization with DWSIM & AI4Tech Suite: Single-Objective Strategies & Industrial Practice",
+    "credential_url": "https://verify.ai4tech.ai/?id=ZSK-M4R-20AI4T26",
+    "hours": 24,
+    "instructors": [
+      "Nicolas Spogis"
+    ],
+    "issue_date": "2026-04-28",
+    "linkedin_url": "https://www.linkedin.com/profile/add?startTask=CERTIFICATION_NAME&name=Applied%20Process%20Optimization%20with%20DWSIM%20%26%20AI4Tech%20Suite%3A%20Single-Objective%20Strategies%20%26%20Industrial%20Practice&organizationId=81309265&issueYear=2026&issueMonth=4&certId=ZSK-M4R-20AI4T26&certUrl=https%3A%2F%2Fverify.ai4tech.ai%2F%3Fid%3DZSK-M4R-20AI4T26",
+    "name": "Pedro Monteiro de Oliveira",
+    "notes": "Successfully completed the full DWSIM training program, including all classes and the final project.",
+    "partners": [
+      "AI4Tech"
     ],
     "status": "valid"
   },
